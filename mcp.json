@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "lf-starter_project": {
+      "command": "uvx",
+      "args": [
+        "--with",
+        "mcp<2.0.0",
+        "mcp-proxy",
+        "--transport",
+        "streamablehttp",
+        "--headers",
+        "x-api-key",
+        "sk-Z2mIJq4PqcgcFxldkTZbeT-dwMa3W9XHfJyJD_PQzhU",
+        "http://127.0.0.1:7860/api/v1/mcp/project/42d2126a-efdc-4c8d-93a6-5db8c981a183/streamable"
+      ],
+      "timeout": 300000
+    },
+"composio": {
+      "url": "https://connect.composio.dev/mcp",
+      "headers": {
+        "x-consumer-api-key": "ck_ZbZ162plHZAkXyM5mIeH"
+      }
+    }
+  }
+}
